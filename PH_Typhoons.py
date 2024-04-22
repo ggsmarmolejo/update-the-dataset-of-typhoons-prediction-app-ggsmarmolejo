@@ -2,7 +2,7 @@ import streamlit as st
 import tensorflow as tf
 import numpy as np
 import pandas as pd
-from sklearn.metrics import mean_squared_error, mean_absolute_error
+import sklearn.metrics
 from sklearn.preprocessing import MinMaxScaler
 import matplotlib.pyplot as plt
 import time
